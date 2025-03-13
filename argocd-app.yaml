@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/Chaimaa5/cel-mhan42'
-    targetRevision: master
-    path: manifests
+    repoURL: 'https://gitlab.com/Chaimaa5/cel-mhan42-iot'
+    targetRevision: main
+    path: k3d-manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
@@ -16,3 +16,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
+  
+  #
